@@ -6,7 +6,7 @@ license = "MIT"
 description = "Yet another linux kernel resource monitor"
 readme = "README.md"
 repository = "https://github.com/enkerewpo/rmon"
-keywords = ["cli","top","resource monitor"]
+keywords = ["cli","top","unix"]
 edition = "2021"
 categories = ["command-line-utilities"]
 
