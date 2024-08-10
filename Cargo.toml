@@ -1,0 +1,15 @@
+[package]
+name = "rmon"
+version = "0.1.0"
+authors = ["wheatfox <enkerewpo@hotmail.com>"]
+license = "MIT"
+description = "Yet another linux kernel resource monitor"
+readme = "README.md"
+repository = "https://github.com/enkerewpo/rmon"
+keywords = ["cli","top","resource monitor"]
+edition = "2021"
+categories = ["command-line-utilities"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
