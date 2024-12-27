@@ -1,17 +1,17 @@
 [package]
 name = "rmon"
-version = "0.1.0"
+description = "Program profiling tool with TUI for unix(like) systems"
+version = "0.1.1"
 authors = ["wheatfox <enkerewpo@hotmail.com>"]
 license = "MIT"
-description = "Yet another linux kernel resource monitor"
 readme = "README.md"
 repository = "https://github.com/enkerewpo/rmon"
-keywords = ["cli","top","unix"]
-edition = "2021"
+keywords = ["cli", "top", "unix"]
+edition = "2024"
 categories = ["command-line-utilities"]
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
-ratatui = "0.28.0"
+clap = { version = "4.5.23", features = ["derive"] }
+ratatui = "0.29.0"
 syscalls = "0.6.18"
+sysinfo = "0.33.1"

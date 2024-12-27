@@ -1,5 +1,5 @@
-# rmon
+# RMON
 
-linux kernel resource monitor(process, irq, etc) cli-monitor written in Rust
+profiling program on unix(like) system with TUI interface written in Rust.
 
 wheatfox 2024
